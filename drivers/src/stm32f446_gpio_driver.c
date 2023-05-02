@@ -1,8 +1,8 @@
 /*
  * stm32f407xx_gpio_driver.c
  *
- *  Created on: Jan 29, 2019
- *      Author: admin
+ *  Created on: Jan 29, 2023
+ *      Author: MohamedShaaban
  */
 
 
@@ -14,9 +14,9 @@
  *
  * @brief             - This function enables or disables peripheral clock for the given GPIO port
  *
- * @param[in]         - base address of the gpio peripheral
- * @param[in]         - ENABLE or DISABLE macros
- * @param[in]         -
+ * @Mohamed[in]         - base address of the gpio peripheral
+ * @Mohamed[in]         - ENABLE or DISABLE macros
+ * @Mohamed[in]         -
  *
  * @return            -  none
  *
@@ -55,7 +55,7 @@ void GPIO_PeriClockControl(GPIO_RegDef_t *pGPIOx, uint8_t EnorDi)
 	}
 	else
 	{
-		//TODO
+
 	}
 
 }
@@ -68,9 +68,9 @@ void GPIO_PeriClockControl(GPIO_RegDef_t *pGPIOx, uint8_t EnorDi)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -166,9 +166,9 @@ void GPIO_Init(GPIO_Handle_t *pGPIOHandle)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -212,9 +212,9 @@ void GPIO_DeInit(GPIO_RegDef_t *pGPIOx)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -   0 or 1
  *
@@ -236,9 +236,9 @@ uint8_t GPIO_ReadFromInputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -260,9 +260,9 @@ uint16_t GPIO_ReadFromInputPort(GPIO_RegDef_t *pGPIOx)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -289,9 +289,9 @@ void GPIO_WriteToOutputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber, uint8_t Val
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -309,9 +309,9 @@ void GPIO_WriteToOutputPort(GPIO_RegDef_t *pGPIOx, uint16_t Value)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -330,9 +330,9 @@ void GPIO_ToggleOutputPin(GPIO_RegDef_t *pGPIOx, uint8_t PinNumber)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -386,9 +386,9 @@ void GPIO_IRQInterruptConfig(uint8_t IRQNumber, uint8_t EnorDi)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -411,9 +411,9 @@ void GPIO_IRQPriorityConfig(uint8_t IRQNumber,uint32_t IRQPriority)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *

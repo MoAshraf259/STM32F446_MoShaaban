@@ -1,8 +1,8 @@
 /*
  * stm32f407xx_spi_driver.c
  *
- *  Created on: Feb 9, 2019
- *      Author: admin
+ *  Created on: Feb 9, 2023
+ *      Author: MohamedShaaban
  */
 
 #include "stm32f446_spi_driver.h"
@@ -16,9 +16,9 @@ static void  spi_ovr_err_interrupt_handle(SPI_Handle_t *pSPIHandle);
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -43,7 +43,7 @@ void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t EnorDi)
 	}
 	else
 	{
-		//TODO
+
 	}
 }
 
@@ -53,9 +53,9 @@ void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t EnorDi)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -117,9 +117,9 @@ void SPI_Init(SPI_Handle_t *pSPIHandle)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -145,9 +145,9 @@ uint8_t SPI_GetFlagStatus(SPI_RegDef_t *pSPIx , uint32_t FlagName)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -186,9 +186,9 @@ void SPI_SendData(SPI_RegDef_t *pSPIx,uint8_t *pTxBuffer, uint32_t Len)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -228,9 +228,9 @@ void SPI_ReceiveData(SPI_RegDef_t *pSPIx, uint8_t *pRxBuffer, uint32_t Len)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -256,9 +256,9 @@ void SPI_PeripheralControl(SPI_RegDef_t *pSPIx, uint8_t EnOrDi)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -284,9 +284,9 @@ void  SPI_SSIConfig(SPI_RegDef_t *pSPIx, uint8_t EnOrDi)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -313,9 +313,9 @@ void  SPI_SSOEConfig(SPI_RegDef_t *pSPIx, uint8_t EnOrDi)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -368,9 +368,9 @@ void SPI_IRQInterruptConfig(uint8_t IRQNumber, uint8_t EnorDi)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *

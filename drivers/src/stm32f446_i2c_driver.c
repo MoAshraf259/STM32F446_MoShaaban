@@ -1,8 +1,8 @@
 /*
  * stm32f407xx_i2c_driver.c
  *
- *  Created on: Feb 20, 2019
- *      Author: admin
+ *  Created on: Feb 20, 2023
+ *      Author: MohamedShaaban
  */
 
 #include "stm32f446_i2c_driver.h"
@@ -110,9 +110,9 @@ static void I2C_ClearADDRFlag(I2C_Handle_t *pI2CHandle )
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -138,9 +138,9 @@ void I2C_PeripheralControl(I2C_RegDef_t *pI2Cx, uint8_t EnOrDi)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -164,7 +164,7 @@ void I2C_PeriClockControl(I2C_RegDef_t *pI2Cx, uint8_t EnorDi)
 	}
 	else
 	{
-		//TODO
+
 	}
 
 }
@@ -177,9 +177,9 @@ void I2C_PeriClockControl(I2C_RegDef_t *pI2Cx, uint8_t EnorDi)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -256,9 +256,9 @@ void I2C_Init(I2C_Handle_t *pI2CHandle)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -428,9 +428,9 @@ void I2C_ManageAcking(I2C_RegDef_t *pI2Cx, uint8_t EnorDi)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -483,9 +483,9 @@ void I2C_IRQInterruptConfig(uint8_t IRQNumber, uint8_t EnorDi)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -509,9 +509,9 @@ void I2C_IRQPriorityConfig(uint8_t IRQNumber,uint32_t IRQPriority)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -553,9 +553,9 @@ uint8_t I2C_MasterSendDataIT(I2C_Handle_t *pI2CHandle,uint8_t *pTxBuffer, uint32
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *
@@ -841,9 +841,9 @@ void I2C_EV_IRQHandling(I2C_Handle_t *pI2CHandle)
  *
  * @brief             -
  *
- * @param[in]         -
- * @param[in]         -
- * @param[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
+ * @Mohamed[in]         -
  *
  * @return            -
  *

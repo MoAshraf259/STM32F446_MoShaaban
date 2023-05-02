@@ -1,8 +1,8 @@
 /*
  * uart_tx.c
  *
- *  Created on: Jan 22, 2019
- *      Author: admin
+ *  Created on: Jan 22, 2023
+ *      Author: MohamedShaaban
  */
 
 #include<stdio.h>
